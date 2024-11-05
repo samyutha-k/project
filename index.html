@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Company</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-circle"></div>
+    </div>
+
+    <!-- Main Content -->
+    <header>
+        <h1>Welcome to <span>MusicWave</span></h1>
+    </header>
+
+    <section class="music-container">
+        <!-- Music Player without Play/Pause Button -->
+        <div class="music-player">
+            <audio id="audio" src="sample-music.mp3"></audio>
+            <div class="player-controls">
+                <div class="progress-bar" id="progressBar">
+                    <div class="progress" id="progress"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Music Cards including About Us -->
+        <div class="card-container">
+            <!-- Album Cards -->
+            <div class="card">
+                <img src="album1.jpg" alt="Album 1">
+                <div class="info">
+                    <h3>Album One</h3>
+                    <p>Artist Name</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="album2.jpg" alt="Album 2">
+                <div class="info">
+                    <h3>Album Two</h3>
+                    <p>Artist Name</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="album3.jpg" alt="Album 3">
+                <div class="info">
+                    <h3>Album Three</h3>
+                    <p>Artist Name</p>
+                </div>
+            </div>
+
+            <!-- About Us Card -->
+            <div class="card about-us">
+                <div class="info">
+                    <h3>About Us</h3>
+                    <p>MusicWave is dedicated to bringing the best in music to listeners around the world. We support artists and fans by creating a platform that showcases diverse talents.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
